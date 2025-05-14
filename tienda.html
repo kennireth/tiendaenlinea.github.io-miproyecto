@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Tienda de Regalos, Estambre y Novedades</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive, sans-serif;
+    background: linear-gradient(135deg, #937df9, #e4dacc);
+    color: #0e0a11;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    background-color: #981cf5;
+    color: #f1ede7;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-bottom: 7px solid #5d4c43;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  header h1 {
+    margin: 0.2rem 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  header p {
+    font-style: italic;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  main {
+    flex-grow: 1;
+    padding: 1rem 1.5rem;
+  }
+
+  section {
+    margin-bottom: 1.8rem;
+  }
+
+  section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+    color: #5d4c43;
+    border-bottom: 2px solid #a1887f;
+    padding-bottom: 0.3rem;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+
+  ul.product-list {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  ul.product-list li {
+    background: #c79cff;
+    border: 2px solid #981cf5;
+    border-radius: 12px;
+    padding: 0.9rem 1rem;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    transition: background-color 0.3s ease;
+    cursor: default;
+  }
+  ul.product-list li:hover,
+  ul.product-list li:focus {
+    background-color: #da50ff;
+    color: white;
+    outline: none;
+  }
+
+  footer {
+    background-color: #981cf5;
+    color: #f1ede7;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0.3rem 0 0;
+  }
+  .contact-info li {
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+  }
+
+  a.social-link {
+    margin: 0 0.4rem;
+    color: #937df9;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+  }
+  a.social-link:hover,
+  a.social-link:focus {
+    color: #937df9;
+    outline: none;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>ALKARHEL</h1>
+  <p>Merceria, Papeleria, Artículos de Temporada y más</p>
+</header>
+<main>
+  <section id="about">
+    <h2>Sobre Nosotros</h2>
+       <p>Fundada el 18 de noviembre de 2020 por necesidad y obtener un ingreso fijo</p>
+    <p>Tienda ALKARHEL, se ha comberido en el lugar preferido para encontrar regalos únicos, estambre de calidad y novedades especiales para todas las ocasiones. Nuestra pasión es ofrecer productos hermosos que inspiren creatividad y alegría.</p>
+  </section>
+
+  <section id="products">
+    <h2>Productos Destacados</h2>
+    <p>Contamos con una amplia variedad para toda ocasión:</p>
+    <ul class="product-list" aria-label="Lista de productos destacados">
+      <li tabindex="0">Moños y listones</li>
+      <li tabindex="1">Estambres</li>
+      <li tabindex="2">Ropa</li>
+      <li tabindex="3">Trastes</li>
+      <li tabindex="4">Papeleria</li>
+      <li tabindex="5">Artículos de limpieza</li>
+    </ul>
+  </section>
+<img
+          src="ti.jpeg"
+          whidth="300"
+          height="200"
+        />
+    <img
+    src="mo.jpeg"
+          whidth="300"
+          height="200"
+        />
+    <img
+    src="re.jpeg"
+          whidth="300"
+          height="200"
+        />
+    <img
+    src="tr.jpeg"
+          whidth="300"
+          height="200"
+        />
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Nos encantará atenderte y ayudarte a encontrar justo lo que buscas.</p>
+    <ul class="contact-info">
+      <li><strong>Dirección:</strong> Localidad de Santa Cruz del Tejocote, San José del Rincón
+      Frente a la Escuela Primaria Lazaro Cardenaz </li>
+      <li><strong>Teléfono:</strong> +52 722 839 36 71</li>
+      <li><strong>Email: </strong> karlapoky@gmail.com </li>
+    </ul>
+    <div>
+      <a href="#" class="social-link" aria-label="Facebook Tienda Bonita" target="_blank" rel="noopener noreferrer">📘</a>
+      <a href="#" class="social-link" aria-label="Instagram Tienda Bonita" target="_blank" rel="noopener noreferrer">📸</a>
+      <a href="#" class="social-link" aria-label="Whatsapp Tienda Bonita" target="_blank" rel="noopener noreferrer">💬</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 TECNICO EN VENTAS 202 - Todos los derechos reservados
+</footer>
+</body>
+</html>
